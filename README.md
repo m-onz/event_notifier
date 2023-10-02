@@ -2,7 +2,11 @@
 
 a simple cli tool that notifies me about upcoming events.
 
-## the problem I'm solving
+## the personal problem I'm solving
+
+I am terrible at remembering to get cards and
+presents for peoples birthdays and I don't
+have a calendar or planner.
 
 I want to get notified about future one off events
 and recurring events like friends and families birthdays.
@@ -14,12 +18,12 @@ events.
 When I log into my computer this cli tool will be launched via
 .bashrc creating notifications with `node-notifier`.
 
-## how it works.
+## how it works
 
 * install via github
 * cd ./event_notifier && npm i && sudo npm link
 * edit your `events.json` with your actual data
-* update your ./.bashrc with `(sleep 180 && event_notifier) &`
+* update your ./.bashrc with `(sleep 10 && event_notifier) &`
 
 upon logging in you should see notifications for:
 
@@ -29,4 +33,4 @@ upon logging in you should see notifications for:
 
 ## disclaimer
 
-* only designed and test for debian linux systems
+* tested on debian based linux
