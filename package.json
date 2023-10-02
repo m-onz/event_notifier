@@ -1,0 +1,27 @@
+{
+  "name": "event_notifier",
+  "version": "1.0.0",
+  "description": "a simple cli tool that notifies me about upcoming events",
+  "main": "bin.js",
+  "bin": {
+    "event_notifier": "bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-onz/event_notifier.git"
+  },
+  "keywords": [
+    "event",
+    "planner"
+  ],
+  "author": "m-onz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m-onz/event_notifier/issues"
+  },
+  "homepage": "https://github.com/m-onz/event_notifier#readme",
+  "dependencies": {
+    "moment": "^2.29.4",
+    "node-notifier": "^10.0.1"
+  }
+}

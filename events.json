@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Billys birthday",
+    "date": "2023-10-02",
+    "frequency": "yearly",
+    "description": "send birthday message!"
+  },
+  {
+    "name": "Conference",
+    "date": "2023-10-09",
+    "frequency": "once",
+    "description": "starts at 7am"
+  }
+]
