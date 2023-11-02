@@ -12,6 +12,7 @@ if (fs.existsSync(EVENTS_FILE)) {
 }
 
 var checkNotifications = () => {
+  notify('checking for notifications...')
   // console.log('checking for events notifications:')
   events.forEach(event => {
     switch (event.frequency) {
@@ -66,7 +67,6 @@ checkNotifications()
 upcomingEventsInNext30Days()
 
 function notify (message) {
-  // console.log(message)
   notifier.notify(
     {
       title: 'event_notifier',

@@ -1,36 +1,11 @@
 # event_notifier
 
-a simple cli tool that notifies me about upcoming events.
+a simple cli calendar tool that notifies me about upcoming events.
 
-## the personal problem I'm solving
+## instructions
 
-I am terrible at remembering to get cards and
-presents for peoples birthdays and I don't
-have a calendar or planner.
-
-I want to get notified about future one off events
-and recurring events like friends and families birthdays.
-
-I want a simple cli tool and JSON file to represent these
-events. I will simply modify the JSON file directly to add new
-events.
-
-When I log into my computer this cli tool will be launched via
-.bashrc creating notifications with `node-notifier`.
-
-## how it works
-
-* install via github
+* clone repo from github
 * cd ./event_notifier && npm i && sudo npm link
-* edit your `events.json` with your actual data
-* update your ./.bashrc with `(sleep 10 && event_notifier) &`
-
-upon logging in you should see notifications for:
-
-* events that are happening today
-* upcoming events in exactly 7 days
-* all upcoming events in the next 30 days.
-
-## disclaimer
-
-* tested on debian based linux
+* `cp ./events-demo.json ./events.json` & edit your `events.json` with your actual data
+* enable this command to run upon logging in or startup (instructions vary based your os).
+* on linux you can launch the binary via "/usr/bin/event_notifier" after you have run `sudo npm link`
